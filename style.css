@@ -79,3 +79,38 @@ position: absolute;
 right: 1px;
 bottom: 60px
  }
+
+ iframe{
+    position: absolute;
+    display: none;
+ }
+
+ .buffalo{
+    width: 400px;
+    height:300px;
+    display: block;
+    bottom: 20vh;
+    left: 5vw;
+ }
+
+ .faceid{
+    width: 400px;
+    height:300px;
+    display: block;
+    bottom: 20vh;
+    left: 5vw;
+ }
+
+ .btn_buffalo{
+    cursor: pointer;
+    position: absolute;
+    bottom: 20vh;
+    left: 5vw;
+ }
+
+ .open{
+    width: 80vw;
+    left: 80vh;
+    background-color: #6803d4;
+    border-radius: 50px;
+ }
