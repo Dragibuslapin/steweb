@@ -67,10 +67,9 @@ bottom: 20px
    
  h4
  {
-    position: absolute;
-    right: 40px;
-    top:20px;
-
+position: absolute;
+right: 1px;
+bottom: 91px
  }
 
  h3
@@ -82,7 +81,7 @@ bottom: 60px
 
  iframe{
     position: absolute;
-    display: none;
+   display: none;
  }
 
  .buffalo{
@@ -97,11 +96,29 @@ bottom: 60px
     width: 400px;
     height:300px;
     display: block;
-    bottom: 20vh;
-    left: 5vw;
+    top: 2vh;
+    right: 42vw;
  }
 
+ .aquosus{
+   width: 400px;
+   height:300px;
+   display: block;
+   top: 56vh;
+   right: 21vw;
+}
+
+
+.aimemories{
+  width: 400px;
+  height:300px;
+  display: block;
+  top: 56vh;
+  right: 21vw;
+}
+
  .btn_buffalo{
+   font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
     position: absolute;
     bottom: 20vh;
@@ -109,8 +126,157 @@ bottom: 60px
  }
 
  .open{
+   
     width: 80vw;
-    left: 80vh;
+    height: 80vh;
     background-color: #6803d4;
     border-radius: 50px;
+    z-index: 15;
  }
+
+ .close_buffalo{
+   font-family: Arial, Helvetica, sans-serif;
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 15px;
+    width: fit-content;
+    margin: 50px;
+ }
+
+.detail_buffalo .close_buffalo{
+display: none
+}
+
+.open .close_buffalo{
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 15px;
+    width: fit-content;
+    margin: 50px;
+    display: block;
+}
+
+
+.btn_faceid{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10pt;
+    cursor: pointer;
+    position: absolute;
+    top: 30vh;
+    right: 55vw;
+ }
+
+ .open{
+   
+    width: 80vw;
+    height: 80vh;
+    background-color: #6803d4;
+    border-radius: 50px;
+    z-index: 15;
+ }
+
+ .close_faceid{
+   font-family: Arial, Helvetica, sans-serif;
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 15px;
+    width: fit-content;
+    margin: 50px;
+ }
+
+.detail_faceid .close_faceid{
+display: none
+}
+
+.open .close_faceid{
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 15px;
+    width: fit-content;
+    margin: 50px;
+    display: block;
+}
+
+.btn_aquosus{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10pt;
+    cursor: pointer;
+    position: absolute;
+    top: 91vh;
+    right: 12vw;
+ }
+
+ .open{
+   
+    width: 80vw;
+    height: 80vh;
+    background-color: #6803d4;
+    border-radius: 50px;
+    z-index: 15;
+ }
+
+ .close_aquosus{
+   font-family: Arial, Helvetica, sans-serif;
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 15px;
+    width: fit-content;
+    margin: 50px;
+ }
+
+.detail_aquosus .close_aquosus{
+display: none
+}
+
+.open .close_aquosus{
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 15px;
+    width: fit-content;
+    margin: 50px;
+    display: block;
+}
+
+
+
+.btn_aimemories{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10pt;
+    cursor: pointer;
+    position: absolute;
+    top: 91vh;
+    right: 12vw;
+ }
+
+ .open{
+   
+    width: 80vw;
+    height: 80vh;
+    background-color: #6803d4;
+    border-radius: 50px;
+    z-index: 15;
+ }
+
+ .close_aimemories{
+   font-family: Arial, Helvetica, sans-serif;
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 15px;
+    width: fit-content;
+    margin: 50px;
+ }
+
+.detail_aimemories .close_aimemories{
+display: none
+}
+
+.open .close_aimemories{
+    background: rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 15px;
+    width: fit-content;
+    margin: 50px;
+    display: block;
+}
+
+
