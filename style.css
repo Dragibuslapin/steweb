@@ -104,8 +104,8 @@ bottom: 60px
    width: 400px;
    height:300px;
    display: block;
-   top: 56vh;
-   right: 21vw;
+   bottom: 3vh;
+   right: 10vw;
 }
 
 
@@ -114,22 +114,23 @@ bottom: 60px
   height:300px;
   display: block;
   top: 56vh;
-  right: 21vw;
+  right: 45vw;
 }
 
  .btn_buffalo{
    font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
+    font-size: 10px;
     position: absolute;
-    bottom: 20vh;
-    left: 5vw;
+    bottom: 26vh;
+    left: 2vw;
  }
 
  .open{
    
     width: 80vw;
     height: 80vh;
-    background-color: #6803d4;
+    background-image: url("bookfloriesouday_2021-2022_Page_12.jpg")
     border-radius: 50px;
     z-index: 15;
  }
@@ -159,7 +160,7 @@ display: none
 
 .btn_faceid{
    font-family: Arial, Helvetica, sans-serif;
-   font-size: 10pt;
+   font-size: 8pt;
     cursor: pointer;
     position: absolute;
     top: 30vh;
@@ -244,8 +245,8 @@ display: none
    font-size: 10pt;
     cursor: pointer;
     position: absolute;
-    top: 91vh;
-    right: 12vw;
+    top: 92vh;
+    right: 60vw;
  }
 
  .open{
